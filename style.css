@@ -66,9 +66,8 @@ h5 {
     line-height: 60px;
     color: #61d2b4;
 }
-
-.item-boxes:hover .icon {
-    color: #000 !important;
+.item-boxes .icon:hover > i ,.item-boxes .icon:hover {
+    color: #fff !important;
     background-color: #61d2b4;
 }
 
