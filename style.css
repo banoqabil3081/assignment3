@@ -21,10 +21,24 @@ body {
 }
 
 .footer-links li {
-    margin: 10px;
     display: flex;
 }
 
+.footer-links li a {
+	color: #fff;
+	margin-right: 15px;
+}
+.footer-links li a:hover {
+	color: #61d2b4;
+    text-decoration: none;
+}
+footer {
+	background: #292f35;
+	padding: 20px 0;
+}
+.copyright p {
+	color: #fff;
+}
 h2 {
     text-align: center;
     text-transform: uppercase;
